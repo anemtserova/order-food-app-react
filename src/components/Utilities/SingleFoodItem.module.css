@@ -1,0 +1,42 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid #617e2a;
+}
+
+.meal {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+	padding-bottom: 1rem;
+}
+
+.meal h3 {
+	margin: 0 0 0.25rem 0;
+}
+
+.title {
+	width: 25%;
+}
+
+.description {
+	font-style: italic;
+	width: 25%;
+}
+
+.price {
+	margin-top: 0.25rem;
+	font-weight: bold;
+	color: #9a5b11;
+	font-size: 1.25rem;
+	width: 25%;
+}
+
+.cals {
+	font-weight: bold;
+	color: #9a5b11;
+	font-size: 1rem;
+	text-align: end;
+	font-style: italic;
+}
